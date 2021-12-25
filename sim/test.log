@@ -1,0 +1,179 @@
+./ctm
+In ctm_tb source() function
+In ctm_tb sink() function...
+In ctm_tb sink() function...
+In ctm_tb source() function
+In LTM 0, received chunk from STM with attributes: address - 0, timestamp - 0, gist - 0, weight - 0, intensity - 0, mood - 0
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 0, gist - 5, weight - 7, intensity - 6, mood - 3
+In LTM 1, received chunk from STM with attributes: address - 0, timestamp - 0, gist - 0, weight - 0, intensity - 0, mood - 0
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 0, gist - 2, weight - 6, intensity - 5, mood - 3
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 0, gist - 0, weight - 0, intensity - 0, mood - 0
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 0, gist - 0, weight - 0, intensity - 0, mood - 0
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 1
+In STM - Beginning DownTree broadcast...
+In ctm_tb sink() function...
+In ctm_tb source() function
+In LTM 0, received chunk from STM with attributes: address - 0, timestamp - 0, gist - 0, weight - 0, intensity - 0, mood - 0
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 0, gist - 0, weight - 7, intensity - 2, mood - 1
+In LTM 1, received chunk from STM with attributes: address - 0, timestamp - 0, gist - 0, weight - 0, intensity - 0, mood - 0
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 0, gist - 0, weight - 6, intensity - 3, mood - 9
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 0, gist - 5, weight - 7, intensity - 6, mood - 3
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 0, gist - 2, weight - 6, intensity - 5, mood - 3
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 0
+In STM - Beginning DownTree broadcast...
+In ctm_tb sink() function...
+Received 0 from LTM A and received 0 from LTM B
+In ctm_tb source() function
+In ctm_tb sink() function...
+Received 0 from LTM A and received 0 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 72 to LTM A and sending 36 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 0, timestamp - 0, gist - 5, weight - 7, intensity - 6, mood - 3
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 1, gist - 9, weight - 7, intensity - 8, mood - 1
+In LTM 1, received chunk from STM with attributes: address - 0, timestamp - 0, gist - 5, weight - 7, intensity - 6, mood - 3
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 1, gist - 3, weight - 2, intensity - 0, mood - 2
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 0, gist - 0, weight - 7, intensity - 2, mood - 1
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 0, gist - 0, weight - 6, intensity - 3, mood - 9
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 1
+In STM - Beginning DownTree broadcast...
+In ctm_tb sink() function...
+Received 0 from LTM A and received 0 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 35 to LTM A and sending 29 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 1, timestamp - 0, gist - 0, weight - 6, intensity - 3, mood - 9
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 2, gist - 9, weight - 8, intensity - 2, mood - 2
+In LTM 1, received chunk from STM with attributes: address - 1, timestamp - 0, gist - 0, weight - 6, intensity - 3, mood - 9
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 2, gist - 1, weight - 6, intensity - 3, mood - 7
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 1, gist - 9, weight - 7, intensity - 8, mood - 1
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 1, gist - 3, weight - 2, intensity - 0, mood - 2
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 0
+In STM - Beginning DownTree broadcast...
+In CTM, receiving information from the outside world... 
+In CTM, letting LTMs know there is information for them... 
+In ctm_tb sink() function...
+Received 0 from LTM A and received 0 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 29 to LTM A and sending 73 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 0, timestamp - 1, gist - 9, weight - 7, intensity - 8, mood - 1
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 3, gist - 7, weight - 4, intensity - 9, mood - 1
+LTM 0 received the following information from the external environment, transforming it using an input map now...: 35
+In LTM 1, received chunk from STM with attributes: address - 0, timestamp - 1, gist - 9, weight - 7, intensity - 8, mood - 1
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 3, gist - 0, weight - 5, intensity - 4, mood - 8
+LTM 1 received the following information from the external environment, transforming it using an input map now...: 29
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 2, gist - 9, weight - 8, intensity - 2, mood - 2
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 2, gist - 1, weight - 6, intensity - 3, mood - 7
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 1
+In STM - Beginning DownTree broadcast...
+In ctm_tb sink() function...
+Received 35 from LTM A and received 29 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 26 to LTM A and sending 91 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 1, timestamp - 2, gist - 1, weight - 6, intensity - 3, mood - 7
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 4, gist - 2, weight - 3, intensity - 6, mood - 0
+In LTM 1, received chunk from STM with attributes: address - 1, timestamp - 2, gist - 1, weight - 6, intensity - 3, mood - 7
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 4, gist - 5, weight - 1, intensity - 6, mood - 0
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 3, gist - 7, weight - 4, intensity - 9, mood - 1
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 3, gist - 0, weight - 5, intensity - 4, mood - 8
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 1
+In STM - Beginning DownTree broadcast...
+In CTM, receiving information from the outside world... 
+In CTM, letting LTMs know there is information for them... 
+In ctm_tb sink() function...
+Received 35 from LTM A and received 29 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 84 to LTM A and sending 27 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 1, timestamp - 3, gist - 0, weight - 5, intensity - 4, mood - 8
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 5, gist - 9, weight - 6, intensity - 5, mood - 6
+LTM 0 received the following information from the external environment, transforming it using an input map now...: 26
+In LTM 1, received chunk from STM with attributes: address - 1, timestamp - 3, gist - 0, weight - 5, intensity - 4, mood - 8
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 5, gist - 5, weight - 4, intensity - 7, mood - 3
+LTM 1 received the following information from the external environment, transforming it using an input map now...: 91
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 4, gist - 2, weight - 3, intensity - 6, mood - 0
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 4, gist - 5, weight - 1, intensity - 6, mood - 0
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 0
+In STM - Beginning DownTree broadcast...
+In ctm_tb sink() function...
+Received 26 from LTM A and received 91 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 45 to LTM A and sending 14 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 0, timestamp - 4, gist - 2, weight - 3, intensity - 6, mood - 0
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 6, gist - 3, weight - 4, intensity - 4, mood - 7
+In LTM 1, received chunk from STM with attributes: address - 0, timestamp - 4, gist - 2, weight - 3, intensity - 6, mood - 0
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 6, gist - 6, weight - 8, intensity - 7, mood - 0
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 5, gist - 9, weight - 6, intensity - 5, mood - 6
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 5, gist - 5, weight - 4, intensity - 7, mood - 3
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 0
+In STM - Beginning DownTree broadcast...
+In CTM, receiving information from the outside world... 
+In CTM, letting LTMs know there is information for them... 
+In ctm_tb sink() function...
+Received 26 from LTM A and received 91 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 88 to LTM A and sending 84 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 0, timestamp - 5, gist - 9, weight - 6, intensity - 5, mood - 6
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 7, gist - 9, weight - 4, intensity - 1, mood - 3
+LTM 0 received the following information from the external environment, transforming it using an input map now...: 45
+In LTM 1, received chunk from STM with attributes: address - 0, timestamp - 5, gist - 9, weight - 6, intensity - 5, mood - 6
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 7, gist - 8, weight - 6, intensity - 0, mood - 2
+LTM 1 received the following information from the external environment, transforming it using an input map now...: 14
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 6, gist - 3, weight - 4, intensity - 4, mood - 7
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 6, gist - 6, weight - 8, intensity - 7, mood - 0
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 1
+In STM - Beginning DownTree broadcast...
+In ctm_tb sink() function...
+Received 45 from LTM A and received 14 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 12 to LTM A and sending 26 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 1, timestamp - 6, gist - 6, weight - 8, intensity - 7, mood - 0
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 8, gist - 5, weight - 9, intensity - 4, mood - 6
+In LTM 1, received chunk from STM with attributes: address - 1, timestamp - 6, gist - 6, weight - 8, intensity - 7, mood - 0
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 8, gist - 7, weight - 8, intensity - 4, mood - 0
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 7, gist - 9, weight - 4, intensity - 1, mood - 3
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 7, gist - 8, weight - 6, intensity - 0, mood - 2
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 1
+In STM - Beginning DownTree broadcast...
+In CTM, receiving information from the outside world... 
+In CTM, letting LTMs know there is information for them... 
+In ctm_tb sink() function...
+Received 45 from LTM A and received 14 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 97 to LTM A and sending 2 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 1, timestamp - 7, gist - 8, weight - 6, intensity - 0, mood - 2
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 9, gist - 6, weight - 2, intensity - 2, mood - 7
+LTM 0 received the following information from the external environment, transforming it using an input map now...: 12
+In LTM 1, received chunk from STM with attributes: address - 1, timestamp - 7, gist - 8, weight - 6, intensity - 0, mood - 2
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 9, gist - 1, weight - 6, intensity - 0, mood - 1
+LTM 1 received the following information from the external environment, transforming it using an input map now...: 26
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 8, gist - 5, weight - 9, intensity - 4, mood - 6
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 8, gist - 7, weight - 8, intensity - 4, mood - 0
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 1
+In STM - Beginning DownTree broadcast...
+In ctm_tb sink() function...
+Received 12 from LTM A and received 26 from LTM B
+In ctm_tb source() function
+In CTM tb: Sending 89 to LTM A and sending 44 to LTM B
+In LTM 0, received chunk from STM with attributes: address - 1, timestamp - 8, gist - 7, weight - 8, intensity - 4, mood - 0
+Sending data chunk from LTM 0 with attributes: address - 0, timestamp - 10, gist - 1, weight - 9, intensity - 0, mood - 9
+In LTM 1, received chunk from STM with attributes: address - 1, timestamp - 8, gist - 7, weight - 8, intensity - 4, mood - 0
+Sending data chunk from LTM 1 with attributes: address - 1, timestamp - 10, gist - 1, weight - 1, intensity - 7, mood - 7
+In STM, got data chunk from LTM with attributes: address - 0, timestamp - 9, gist - 6, weight - 2, intensity - 2, mood - 7
+In STM, got data chunk from LTM with attributes: address - 1, timestamp - 9, gist - 1, weight - 6, intensity - 0, mood - 1
+In STM - Starting UpTree competition...
+In STM - UpTree competition complete! Winning chunk is from LTM: 1
+In STM - Beginning DownTree broadcast...
+In CTM, receiving information from the outside world... 
+In CTM, letting LTMs know there is information for them... 
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+Simulation successful! @111 ns

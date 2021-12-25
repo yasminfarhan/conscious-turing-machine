@@ -1,0 +1,19 @@
+    // LTM signal connections
+    ltm_a.chunk_in(winning_chunks_down[0]);
+    ltm_a.chunk_out(competing_chunks[0]);
+
+    ltm_a.ext_data_in(in_data[0]);
+    ltm_a.ext_data_out(out_data[0]);
+
+    ltm_b.chunk_in(winning_chunks_down[1]);
+    ltm_b.chunk_out(competing_chunks[1]);
+
+    ltm_b.ext_data_in(in_data[1]);
+    ltm_b.ext_data_out(out_data[1]);
+
+    // STM signal connections
+    stm.chunk_in[0](competing_chunks[0]);
+    stm.chunk_in[1](competing_chunks[1]);
+
+    stm.chunk_out[0](winning_chunks_down[0]);
+    stm.chunk_out[1](winning_chunks_down[1]);
